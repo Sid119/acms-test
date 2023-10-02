@@ -24,7 +24,7 @@ jobs:
 
     - name: Terraform Init
       run: |
-         cd a_test_cms\terraform-aws-cognito-user-pool-master\example
+         cd a_test_cms/terraform-aws-cognito-user-pool-master/example
          terraform init
      
 
