@@ -1,4 +1,4 @@
-region = "us-east-1"
+region = "us-west-2"
 #bucket = "fins-dev-bucket-test"
 
 bucket = ["cms-cloudeq-bucket-dev", "cms-cloudeq-bucket-prod", "cms-cloudeq-bucket-qa"]
