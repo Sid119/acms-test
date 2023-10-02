@@ -23,12 +23,16 @@ jobs:
         terraform_version: 1.0.0
 
     - name: Terraform Init
-      run:  terraform init
-      working-directory: C:\a_check\a_test_cms\terraform-aws-cognito-user-pool-master\example 
+      run: |
+         cd C:\a_check\a_test_cms\terraform-aws-cognito-user-pool-master\example
+         terraform init
+     
 
     - name: Terraform Plan
-      run:  terraform fmt
-      working-directory: ./a_test_cms/terraform-aws-cognito-user-pool-master/example 
+      run: |
+        cd C:\a_check\a_test_cms\terraform-aws-cognito-user-pool-master\example
+        terraform fmt
+     
 
     - name: Terraform Apply
       run:  terraform plan
