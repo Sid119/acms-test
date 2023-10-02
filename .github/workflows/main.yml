@@ -24,7 +24,7 @@ jobs:
 
     - name: Terraform Init
       run:  terraform init
-      working-directory: C:\Users\SIDDHARTHAWASTHI\OneDrive - cloudEQ\Desktop\a_check\a_test_cms\terraform-aws-cognito-user-pool-master\example 
+      working-directory: C:\a_check\a_test_cms\terraform-aws-cognito-user-pool-master\example 
 
     - name: Terraform Plan
       run:  terraform fmt
